@@ -1,7 +1,7 @@
 Record Label Website
 ====================
 
-A generic website build using the Lattice CMS for Kohana. This is the white label version of the Void Tactical Media website (http://www.voidtacticalmedia.org). Please fork at will, pull requests welcome!
+A generic website build using the Lattice CMS for Kohana. This is the white label version of the Void Tactical Media website (http://www.voidtacticalmedia.org).  This is meant as a tool for building out a custom, self managed website for your record label or critical media group.   Please fork at will, pull requests welcome!
 
 Installation & Setup
 ======================
@@ -10,4 +10,4 @@ Clone this repository and then follow the instructions on the Lattice wiki, subs
 
 Support
 =======
-Devs familiar with Lattice hang out on the latticecms google group.  You can try there or the Kohana forums if you run into trouble.
+Devs familiar with Lattice hang out on the latticecms google group.  You can try there or the Kohana forums if you run into trouble, or submit a ticket on this repository.
