@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data PUBLIC "-//WINTERROOT//DTD Data//EN" "../../../modules/lattice/lattice/data.dtd">
+<data>
+  <nodes>
+    <item objectTypeName="homePage">
+      <field name="title">Home</field>
+      <field name="slug">home</field>
+      <field name="published">1</field>
+      <item objectTypeName="featuredRelease">
+        <field name="title">FEATURED RELEASE</field>
+        <field name="slug">featured-release</field>
+        <field name="featuredRelease"></field>
+        <field name="soundcloudEmbed">&lt;iframe width="95%" height="260" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2021464&amp;amp;auto_play=false&amp;amp;show_artwork=true&amp;amp;color=000000"&gt;&lt;/iframe&gt;</field>
+        <field name="featureThumbnail"/>
+        <field name="releaseDescription">&lt;a href="http://soundcloud.com/voidtacticalmedia/sets/vtcl002-preview/"&gt;Listen on Soundcloud&lt;/a&gt;
+&lt;br /&gt;&lt;a href="http://voidtacticalmedia.bandcamp.com/album/void-tactical-media-002"&gt;Purchase 12" vinyl or digital on Bandcamp&lt;/a&gt;</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="recentMedia">
+        <field name="title">WMX - Machine Vision II</field>
+        <field name="slug">wmx---machine-vision-ii</field>
+        <field name="thumbnail">application/export/march_3/machineVision2_web_124.png</field>
+        <field name="fullSize">application/export/march_3/machineVision2_web_web.png</field>
+        <field name="description">The day has finally arrived for the full release of WMX's second installment of MACHINE VISION. These sister tracks to the first half of this two EP quartet only turn up the heat - pounding hybrid industrial grit against sculpted percussive architecture. MACHINE VISION II kicks off with GEOMETRY OF IMAGE, a slamming rhythmic noise manifesto destined for building dancefloor energy - the distorted rawness of breakcore cultivated through a techno lineage. On the flip PHYSICS OF LIGHT plays like a lesson in cerebral breakthrough, again peaking the channel with full a full spectrum assault of broken beat industrial funk. The first of what is soon to be a deep catalogue of material from WMX, the MACHINE VISION quartet is your first recorded intro to the deluge of his production. Check the tracks, and get ready to be moved.&lt;br /&gt;&lt;br /&gt;Full Quality: &lt;a href="http://voidtacticalmedia.bandcamp.com/album/machine-vision-ii"&gt;http://voidtacticalmedia.bandcamp.com/album/machine-vision-ii&lt;/a&gt;</field>
+        <field name="published">1</field>
+        <item objectTypeName="recentMediaModal">
+          <field name="title">Modal Image</field>
+          <field name="slug">modal-image8</field>
+          <field name="fullSize"/>
+          <field name="description"></field>
+          <field name="published">1</field>
+        </item>
+      </item>
+      <item objectTypeName="recentMedia">
+        <field name="title">Control and Freedom in Geographic Information Systems</field>
+        <field name="slug">control-and-freedom-in-geographic-information-syst</field>
+        <field name="thumbnail">application/export/march_3/Satellites-web.png</field>
+        <field name="fullSize">application/export/march_3/Satellites-web1.png</field>
+        <field name="description">"Control and Freedom in Geographic Information Systems" was a talk given by Split Horizon the Datacide 12 release party and conference.  View the slides from the presentation here: &lt;a href="http://voidtacticalmedia.org/files/GIS-Control-Freedom-Slides.pdf"&gt;http://voidtacticalmedia.org/files/GIS-Control-Freedom-Slides.pdf&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;"The merger of cartography, statistical analysis and database technology threatens our privacy and autonomy, while simultaneously pluralizing our consensus of what exists, or has existed, at a place. Digital map making is now a crucial form of communication, and a newly contested media that begs exploration. This talk addresses the most severe technological consequences of location tracking, while presenting creative directions, détournements, and strategies that free and open source GIS/GPS technologies now make available to the general public. The talk is followed by a discussion with the audience."</field>
+        <field name="published">1</field>
+        <item objectTypeName="recentMediaModal">
+          <field name="title">Modal Image</field>
+          <field name="slug">modal-image7</field>
+          <field name="fullSize"/>
+          <field name="description"></field>
+          <field name="published">1</field>
+        </item>
+      </item>
+      <item objectTypeName="recentMedia">
+        <field name="title">Activator / Interflow</field>
+        <field name="slug">this-is-a-longer-test-title</field>
+        <field name="thumbnail">application/export/march_3/ennagramed-blue-200x200-2.jpg</field>
+        <field name="fullSize">application/export/march_3/ennagramed-blue-200x200-21.jpg</field>
+        <field name="description">Waiting in the wings for almost a year, the Activator ep showcases some of Split Horizon's newer material, opening a window into how his sound has been mutating since earlier days of hard broken beats. The title track kicks an unyielding broken drum line against weaving, resonant synths and cleaner, more refined production style. Interflow manifests as a fluid, morphing force of thick bass that crescendos to a noisy finale. Further expanding Void Tactical's broken bass style, Activator sums up the last year of Split Horizon's live sets and points outward to the future.&lt;br /&gt;Music: Split Horizon, Original Artwork: Dimentia&lt;br /&gt;Layout &amp;amp; Color: Split Horizon&lt;br /&gt;Mastering: Audible Oddities (Full Rack)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;iframe width="95%" height="280" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2427347&amp;amp;show_artwork=true"&gt;&lt;/iframe&gt;
+&lt;br /&gt;&lt;a href="http://voidtacticalmedia.bandcamp.com/album/activator"&gt;Get Full Quality Digital Files on Bandcamp&lt;/a&gt;</field>
+        <field name="published">1</field>
+        <item objectTypeName="recentMediaModal">
+          <field name="title">Modal Image</field>
+          <field name="slug">modal-image</field>
+          <field name="fullSize"/>
+          <field name="description"></field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+    <item objectTypeName="basicPage">
+      <field name="title">European Tour</field>
+      <field name="slug">european-tour</field>
+      <field name="backgroundHome">application/export/march_3/bkgLights.jpg</field>
+      <field name="published">1</field>
+      <item objectTypeName="featuredRelease">
+        <field name="title">Tour Dates</field>
+        <field name="slug">tour-dates</field>
+        <field name="featuredRelease">BROKEN BASS EUROPEAN TOUR 2012</field>
+        <field name="soundcloudEmbed"></field>
+        <field name="featureThumbnail">application/export/march_3/VTM2012TourPosterWEB.jpg</field>
+        <field name="releaseDescription">Void Tactical Media starts our first European tour on August 24th, 2012.  We start in Ireland and hit as much of Europe as possible from a home base in Berlin.  We're bringing the hard electro and broken bass our style, so look forward to seeing you out there!&lt;br /&gt;&lt;br /&gt;Confirmed  tour dates:&lt;br /&gt;&lt;br /&gt;Aug. 24th Cork, Ireland&lt;br /&gt;Sept 1st Dublin, Ireland&lt;br /&gt;Sept 6th IllFM, London&lt;br /&gt;Sept 7th Darkfloor, London&lt;br /&gt;Sept 14th Madrid, Spain&lt;br /&gt;Sept 19th Noiseangriff, Berlin&lt;br /&gt;Sept 21st Audiodrome, Berlin&lt;br /&gt;Sept 29th Bratislava&lt;br /&gt;Oct 5th Vienna, Austria&lt;br /&gt;Oct 6th Graz (Tentative)&lt;br /&gt;Oct 26th Krakow (Key, Split Horizon)&lt;br /&gt;Oct 27th Prague (Key, Split Horizon)&lt;br /&gt;Oct 20th Datacide, Berlin&lt;br /&gt;Nov 2nd Frekwenz, Berlin&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;We've also got a few other unconfirmed shows in the works and will be adding on gigs as our travels unfold!! So don't hesitate to get in touch if you can fill a date!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href="http://www.facebook.com/VoidTacticalMediaEuropeanTour2012"&gt;Facebook page&lt;/a&gt;
+&lt;br /&gt;&lt;a href="http://www.tumblr.com/blog/voidtactical"&gt;Tumblog&lt;/a&gt;</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="tourBios">
+        <field name="title">Bios</field>
+        <field name="slug">bios</field>
+        <field name="published">1</field>
+        <item objectTypeName="artistBios">
+          <field name="title">artistBios</field>
+          <field name="slug">artistbios</field>
+          <field name="published">1</field>
+          <item objectTypeName="bio">
+            <field name="title">DIMENTIA</field>
+            <field name="slug">slug0902113001344197761</field>
+            <field name="individualBio">DIMENTIA</field>
+            <field name="soundcloudEmbed">&lt;iframe width="100%" height="400" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F312916&amp;amp;show_artwork=true"&gt;&lt;/iframe&gt;</field>
+            <field name="bioText">A mainstay of the West Coast's underground soundsystem culture, Dimentia has worked with Spaz, Katabatik, and 5flowershop crews for many years.&amp;nbsp; Beginning around 2000, his music is a unique blend of electro, acid, techno and broken bass; all made and performed live on hardware gear. &amp;nbsp; Dimentia has been getting a lot of attention in 2012, with several releases on both Void Tactical Media and Katabatik, as well as a feature set on Darkfloor's Mantis Radio.</field>
+            <field name="published">1</field>
+          </item>
+          <item objectTypeName="bio">
+            <field name="title">SPLIT HORIZON</field>
+            <field name="slug">slug0147058001344197774</field>
+            <field name="individualBio">SPLIT HORIZON</field>
+            <field name="soundcloudEmbed">&lt;iframe width="100%" height="320" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2082025&amp;amp;show_artwork=true"&gt;&lt;/iframe&gt;</field>
+            <field name="bioText">Label head of Void Tactical Media starting around 2006 in Detroit, performs exclusively as a live PA using all hardware to craft an improvised set of sonic broken beats and hard electro. &amp;nbsp; As a performer he has played along side artists such as Somatic Responses, Noize Creator, Mark N, Baseck, Xanopticon, Prometheus Burning, and Diskore.&amp;nbsp; In addition to the last Void Tactical 12" Vinyl split with Dimentia, Split Horizon has also been released on Realicide Youth Records, Katabatik, and No Room for Talent.</field>
+            <field name="published">1</field>
+          </item>
+        </item>
+      </item>
+    </item>
+    <item objectTypeName="releases">
+      <field name="title">Releases</field>
+      <field name="slug">releases</field>
+      <field name="backgroundImage">application/export/march_3/154657_478203779013_3153521_n.png</field>
+      <field name="published">1</field>
+      <item objectTypeName="release">
+        <field name="title">FS011 Asteroid</field>
+        <field name="slug">fs011</field>
+        <field name="releaseName">Asteroid</field>
+        <field name="catalogNumber">FS011</field>
+        <field name="Release Image">application/export/march_3/pulsific232.png</field>
+        <field name="smallReleaseImage">application/export/march_3/pulsific200.png</field>
+        <field name="soundcloudEmbed">&lt;object height="18" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3644276&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;param name="wmode" value="transparent"&gt;&lt;/param&gt;&lt;embed wmode="transparent" allowscriptaccess="always" height="18" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3644276&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;   </field>
+        <field name="releaseBlurb">2013, and Void Tactical's Broken Bass is back on the scene, announcing Pulsific Planets debut release. Sure, it's a new name the man himself hit the scene as Selector Catalogue and a From the Gut collaborator back in the Detroit years. An old hand in Void Tactical, and the mastering engineer of our very first record, he is also the owner/operator over at Reject Records (Ann Arbor, MI).  An amazingly detailed and versatile producer, in the Asteroid EP he presents his next equation, melding the intricate programming of Breakcore with dance floor vibe of Broken Beat.  The result is explosive, and provides us with three mixes of hard broken acid core taken to maximum splinter level, a unique perspective with deep roots in sound of the Detroit Metro Area. Asteroid M is the DJ friendly slammer, with mix-in and mix-out for moving these staccato beats in and out of other tracks. The original Asteroid plays 2nd, supplying the full epic statement of slow build zooming from outer to inner space. And that's not all either, an expert level acid mix is available only for download if you spring for the fully quality waves at bandcamp.  Composed, mixed, and mastered by one man alone - whether you know him as Pulsific Planet, Selector Cataloge, or Anti-Cheat the situation is undeniable, we've got a skilled craftsman on our hands here.</field>
+        <field name="fullQualityDownload">http://voidtacticalmedia.bandcamp.com/album/asteroid</field>
+        <field name="mastering">Pulsific Planet</field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="release">
+        <field name="title">FS010 Machine Vision II</field>
+        <field name="slug">fs010-machine-vision-ii</field>
+        <field name="releaseName">MACHINE VISION II</field>
+        <field name="catalogNumber">FS010</field>
+        <field name="Release Image">application/export/march_3/MachineVisionII2321.png</field>
+        <field name="smallReleaseImage">application/export/march_3/MachineVisionII2001.png</field>
+        <field name="soundcloudEmbed">&lt;object height="18" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2598123&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff"&gt; &lt;param name="allowscriptaccess" value="always"&gt; &lt;param name="wmode" value="transparent"&gt;&lt;embed wmode="transparent" allowscriptaccess="always" height="18" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2598123&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff" type="application/x-shockwave-flash" width="100%"&gt; &lt;/object&gt;   </field>
+        <field name="releaseBlurb">The day has finally arrived for the full release of WMX's second installment of MACHINE VISION. These sister tracks to the first half of this two EP quartet only turn up the heat - pounding hybrid industrial grit against sculpted percussive architecture. MACHINE VISION II kicks off with GEOMETRY OF IMAGE, a slamming rhythmic noise manifesto destined for building dancefloor energy - the distorted rawness of breakcore cultivated through a techno lineage. On the flip PHYSICS OF LIGHT plays like a lesson in cerebral breakthrough, again peaking the channel with full a full spectrum assault of broken beat industrial funk. The first of what is soon to be a deep catalogue of material from WMX, the MACHINE VISION quartet is your first recorded intro to the deluge of his production. Check the tracks, and get ready to move.</field>
+        <field name="fullQualityDownload">http://voidtacticalmedia.bandcamp.com/album/machine-vision-ii</field>
+        <field name="mastering">Xanopticon</field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="release">
+        <field name="title">FS009 Activator / Interflow</field>
+        <field name="slug">activator--interflow</field>
+        <field name="releaseName">Activator / Interflow</field>
+        <field name="catalogNumber">FS009</field>
+        <field name="Release Image">application/export/march_3/activator232.png</field>
+        <field name="smallReleaseImage">application/export/march_3/activator200.png</field>
+        <field name="soundcloudEmbed">&lt;object height="18" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2427347&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;param name="wmode" value="transparent"&gt;&lt;/param&gt;&lt;embed wmode="transparent" allowscriptaccess="always" height="18" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2427347&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;   </field>
+        <field name="releaseBlurb">Waiting in the wings for almost a year, the Activator ep showcases some of Split Horizon's newer material, opening a window into how his sound has been mutating since earlier days of hard broken beats. The title track kicks an unyielding broken drum line against weaving, resonant synths and cleaner, more refined production style. Interflow manifests as a fluid, morphing force of thick bass that crescendos to a noisy finale. Further expanding Void Tactical's broken bass style, Activator sums up the last year of Split Horizon's live sets and points outward to the future.&lt;br /&gt;&lt;br /&gt;Music: Split Horizon&lt;br /&gt;Original Artwork: Dimentia&lt;br /&gt;Layout &amp;amp; Color: Split Horizon&lt;br /&gt;Mastering: Audible Oddities (Full Rack)</field>
+        <field name="fullQualityDownload">http://voidtacticalmedia.bandcamp.com/album/activator</field>
+        <field name="mastering">Audible Oddities (Full Rack)</field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="release">
+        <field name="title">FS008 Thee Ritual ov Dissektion</field>
+        <field name="slug">thee-ritual-ov-dissektion</field>
+        <field name="releaseName">Thee Ritual ov Dissektion</field>
+        <field name="catalogNumber">FS008</field>
+        <field name="Release Image">application/export/march_3/ritual232.png</field>
+        <field name="smallReleaseImage">application/export/march_3/ritual200.png</field>
+        <field name="soundcloudEmbed">&lt;object height="18" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2351797&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;param name="wmode" value="transparent"&gt;&lt;/param&gt;&lt;embed wmode="transparent" allowscriptaccess="always" height="18" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2351797&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;   </field>
+        <field name="releaseBlurb">Before shoving off for our 2 month Broken Bass tour of Europe, Void Tactical Media was delighted to announce the latest 2 track EP from our closest of  collaborators: Dimentia. Thee Ritual ov Dissektiion continues the crafted, mature sound Dimentia broke on A Vision's Voice earlier this year. Tirelessly tweaking his composition and sonic delivery has paid off, as we enjoy 2 more tracks capturing his genuine, signature style. You'll recognize Incense instantly if you've seen him live - it's often the sound you hear when Dimentia takes control of the room. Dissektion follows this intro with a pounding delivery and brings the EP home. DImentia again signs off with his own original album artwork, and Xanopticon watches the board for the final mix.&lt;br /&gt;&lt;br /&gt;Full quality downloads are available at http://voidtacticalmedia.bandcamp.com/album/thee-ritual-ov-dissektion</field>
+        <field name="fullQualityDownload">http://voidtacticalmedia.bandcamp.com/album/thee-ritual-ov-dissektion</field>
+        <field name="mastering">Xanopticon</field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="release">
+        <field name="title">VTCL002 Dimentia/Split Horizon</field>
+        <field name="slug">vtcl001-stormwave--earth-has-been-eaten-by-our-mac</field>
+        <field name="releaseName">Dimentia / Split Horizon split EP</field>
+        <field name="catalogNumber">VTCL002</field>
+        <field name="Release Image"/>
+        <field name="smallReleaseImage"/>
+        <field name="soundcloudEmbed">&lt;object height="18" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2021464&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;param name="wmode" value="transparent"&gt;&lt;/param&gt;&lt;embed wmode="transparent" allowscriptaccess="always" height="18" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2021464&amp;amp;auto_play=false&amp;amp;player_type=tiny&amp;amp;font=Arial&amp;amp;color=ffffff" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;   </field>
+        <field name="releaseBlurb">Picking up where we left off with the Void Tactical Media imprint, VTCL002 welcomes the first vinyl release from Dimentia teamed up with the 2 original 'Stormwave' tracks from Split Horizon. We've been working towards this release for quite some time, and now the moment is finally here. 12" vinyl with hand screened jacked comes with Dimentia and Void Tactical Media stickers, as well as a poster with artwork by Dimentia and an essay by Split Horizon on the flip. $10 Listen on soundcloud @ VTCL002 SplitHorizon/Dimentia - 12" Vinyl Now Available by void tactical media</field>
+        <field name="fullQualityDownload">http://voidtacticalmedia.bandcamp.com/album/void-tactical-media-002</field>
+        <field name="mastering">Dimentia - Xanopticon, Split Horizon - Audible Oddities (Full Rack).  Vinyl cut by Kevin Gray.</field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="release">
+        <field name="title">VTCL001 Split Horizon/JStat</field>
+        <field name="slug">vtcl-002-dimentia--split-horizon</field>
+        <field name="releaseName">Stormwave / Earth has been Eaten by our Machines</field>
+        <field name="catalogNumber">VTCL001</field>
+        <field name="Release Image"/>
+        <field name="smallReleaseImage"/>
+        <field name="soundcloudEmbed"></field>
+        <field name="releaseBlurb">Over the last few decades Detroit has established a reputation for producing some of the most unique, enduring and intelligent electronic music on the planet. Void Tactical Media's provocative first offering takes any pre-conceived notions one may have regarding MotorCity techno and spins them around at 33.3rpm. Split Horizon and Jstat have each combined elements of noise, electro and broken beats to generate music that is a radical departure from the Detroit legacy, but couldn't have come from anywhere else. The four tracks on the record have been honed and refined during countless live performances over the last year, and are served up in final mixes that are versatile enough to be reworked by capable DJs - yet strong enough to stand on their own.  (review by fishhead)</field>
+        <field name="fullQualityDownload"></field>
+        <field name="mastering"></field>
+        <field name="releaseArtist"/>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="artists">
+      <field name="title">Artists</field>
+      <field name="slug">artists</field>
+      <field name="backgroundImage">application/export/march_3/deepCoreHex.png</field>
+      <field name="published">1</field>
+      <item objectTypeName="artist">
+        <field name="title">Dimentia</field>
+        <field name="slug">dimentia</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">WMX</field>
+        <field name="slug">wmx</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Key</field>
+        <field name="slug">key</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Split Horizon</field>
+        <field name="slug">split-horizon</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Vasculator</field>
+        <field name="slug">vasculator</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">JStat</field>
+        <field name="slug">jstat</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Pulsific Planet</field>
+        <field name="slug">pulsific-planet</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Killx8</field>
+        <field name="slug">killx8</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Diskore</field>
+        <field name="slug">diskore</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Redrot</field>
+        <field name="slug">redrot</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Additiv</field>
+        <field name="slug">additiv</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Metria</field>
+        <field name="slug">metria</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Deadlines</field>
+        <field name="slug">deadlines</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Heather Campbell</field>
+        <field name="slug">heather-campbell</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Adjust</field>
+        <field name="slug">adjust</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Intergalacterrorist</field>
+        <field name="slug">intergalacterrorist</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Fluxion</field>
+        <field name="slug">fluxion</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Kristine Taylor</field>
+        <field name="slug">kristine-taylor</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Intoner</field>
+        <field name="slug">intoner</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Pulsific Planet</field>
+        <field name="slug">pulsific-planet1</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="artist">
+        <field name="title">Eric Stephenson</field>
+        <field name="slug">eric-stephenson</field>
+        <field name="artistPhoto"/>
+        <field name="artistDescription"></field>
+        <field name="releasesForArtist"/>
+        <field name="designsForArtist"/>
+        <field name="published">0</field>
+      </item>
+    </item>
+    <item objectTypeName="design">
+      <field name="title">Design</field>
+      <field name="slug">design</field>
+      <field name="backgroundImage">application/export/march_3/154657_478203779013_3153521_n1.png</field>
+      <field name="missionStatement">We work with a number of designers, many of which are artists or close collaborators to the label.  Together we take a rigorous approach to image generation.  The goal: tactical media, the notion that media can be a conduit of communication and the presentation of ideas, while still encouraging the viewer to apprehend critically.  This is in contrast to advertising - the positioning of images at all costs with the sole intent of selling a product.  Tactical media expands idea, not consumption.</field>
+      <field name="published">1</field>
+      <item objectTypeName="designItem">
+        <field name="title">Machine Vision Artwork</field>
+        <field name="slug">machine-vision2</field>
+        <field name="smallDesignThumb">application/export/march_3/MachineVision200.png</field>
+        <field name="largeDesignThumb">application/export/march_3/MachineVision232.png</field>
+        <field name="designImage">application/export/march_3/MachineVisionFull.png</field>
+        <field name="description">Part one of the Machine Vision diptych, Key responds to WMX's fascination with machine learning, computer vision, and robotics by asserting inevitability of our sci-fi future.</field>
+        <field name="artistsForDesign"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">Machine Vision II Artwork</field>
+        <field name="slug">machine-vision-ii</field>
+        <field name="smallDesignThumb">application/export/march_3/MachineVisionII200.png</field>
+        <field name="largeDesignThumb">application/export/march_3/MachineVisionII232.png</field>
+        <field name="designImage">application/export/march_3/MachineVisionIIFull.png</field>
+        <field name="description">The second half of the MACHINE VISION diptych, Key comments on the modern reality of machine intelligent: pervasive facial recognition.</field>
+        <field name="artistsForDesign"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">Massive Support Flier</field>
+        <field name="slug">massive-support-flier</field>
+        <field name="smallDesignThumb"/>
+        <field name="largeDesignThumb"/>
+        <field name="designImage"/>
+        <field name="description"></field>
+        <field name="artistsForDesign"/>
+        <field name="published">0</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">Excession Flier</field>
+        <field name="slug">excession-flier</field>
+        <field name="smallDesignThumb">application/export/march_3/excessionPoster200.png</field>
+        <field name="largeDesignThumb">application/export/march_3/excessionPoster232.png</field>
+        <field name="designImage">application/export/march_3/excessionPosterFull.png</field>
+        <field name="description">Flier design for one of our Detroit end of year homecoming parties, where the scene reconvenes to catch up.   </field>
+        <field name="artistsForDesign"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">2012 European Tour Poster</field>
+        <field name="slug">2012-european-tour-poster</field>
+        <field name="smallDesignThumb">application/export/march_3/euroPoster200.png</field>
+        <field name="largeDesignThumb">application/export/march_3/euroPoster232.png</field>
+        <field name="designImage">application/export/march_3/euroPosterFull.png</field>
+        <field name="description">Designed for Split Horizon / Dimentia European Broken Bass Tour 2012.</field>
+        <field name="artistsForDesign"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">Power Ladder Tshirt</field>
+        <field name="slug">power-ladder-tshirt1</field>
+        <field name="smallDesignThumb">application/export/march_3/powerLadderShirt200.png</field>
+        <field name="largeDesignThumb">application/export/march_3/powerLadderShirt232.png</field>
+        <field name="designImage">application/export/march_3/powerLadderShirtFull.png</field>
+        <field name="description">Our newest tshirt design.</field>
+        <field name="artistsForDesign"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="designItem">
+        <field name="title">Digital Trees Tshirt</field>
+        <field name="slug">digital-trees-tshirt</field>
+        <field name="smallDesignThumb"/>
+        <field name="largeDesignThumb"/>
+        <field name="designImage"/>
+        <field name="description">Original Void Tactical Media tshirt, graphic came as an offshoot from a conversation between Split Horizon and Deadlines.</field>
+        <field name="artistsForDesign"/>
+        <field name="published">0</field>
+      </item>
+    </item>
+    <item objectTypeName="print">
+      <field name="title">Print</field>
+      <field name="slug">print</field>
+      <field name="missionStatement">No matter the medium, concepts are a pillar of our project.    Writing and theory flow from the same fountain as our audio, visual, and live actions: the expansive ideas that flow from music.</field>
+      <field name="backgroundImage">application/export/march_3/522.png</field>
+      <field name="published">1</field>
+      <item objectTypeName="printItem">
+        <field name="title">The Dancing Star #2 - A Consistent Basis</field>
+        <field name="slug">the-dancing-star-2</field>
+        <field name="printThumb"/>
+        <field name="author">The Dancing Star</field>
+        <field name="year">2011</field>
+        <field name="printDescription">Written during the months of Occupy Oakland, as observing sympathizers and critical participants.  The Dancing Star suggests that the most important work of autonomous organization is the exploration, development, and extrapolation of a consistent ethics.</field>
+        <field name="pdfDownload">application/export/march_3/TDS2.pdf</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="printItem">
+        <field name="title">The Dancing Star #1 - What can Colletive Action Accomplish / The Function of Transforming Space</field>
+        <field name="slug">the-dancing-star</field>
+        <field name="printThumb"/>
+        <field name="author">The Dancing Star</field>
+        <field name="year">2010</field>
+        <field name="printDescription">The first writing of a new project published by Void Tactical Media.  This issue explores two facets.  First it explores what, if any, achievements are accessible through collective action, and suggests that a basis of development is necessary before embarking on such a social experiment.  Second, the Dancing Star suggests a framework for understanding the process and effects of transforming space, when understood not only as an artform but also as a practice.</field>
+        <field name="pdfDownload">application/export/march_3/TDS1.pdf</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="printItem">
+        <field name="title">The Long Walk</field>
+        <field name="slug">the-long-walk</field>
+        <field name="printThumb"/>
+        <field name="author">Split Horizon</field>
+        <field name="year">2012</field>
+        <field name="printDescription">"An organisms way of life is its legacy to the cosmos - is it a story of depletion and death or expansiveness and wisdom?"</field>
+        <field name="pdfDownload">application/export/march_3/PosterBackPrint.pdf</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="live">
+      <field name="title">Live</field>
+      <field name="slug">live</field>
+      <field name="backgroundImage">application/export/march_3/bkgLights11.png</field>
+      <field name="published">1</field>
+      <item objectTypeName="event">
+        <field name="title">Void Tactical presents Darkmatter</field>
+        <field name="slug">void-tactical-presents-darkmatter</field>
+        <field name="eventName">Void Tactical Media presents Darkmatter Soundsystem</field>
+        <field name="eventDate">2012/05/05</field>
+        <field name="city">San Francisco</field>
+        <field name="eventDesc">Void &amp; Darkmatter team up to showcase each other with 2 nights of splintered beats and broken bass. The first in SF(5/5) and the second in LA(5/19). Presenting artists from both labels, this unique collaboration is a night not to be missed.&lt;br /&gt;&lt;br /&gt;Bumpin sound provided by HAVOC SOUNDSYSTEM!&lt;br /&gt;Back room sound by SoFat Soundsystem&lt;br /&gt;&lt;br /&gt;+Featured artists+&lt;br /&gt;&lt;br /&gt;Darkmatter:&lt;br /&gt;Sonic Death Rabbit (Baseck &amp; Wet Mango) www.sonicdeathrabbit.bandcamp.com&lt;br /&gt;Diskore (http://soundcloud.com/diskore)&lt;br /&gt;Nemeton (http://datacide.c8.com/)&lt;br /&gt;Fiend (http://www.nekrolog1krecordings.com/nekrolog1k-podcast05/)&lt;br /&gt;&lt;br /&gt;Void:&lt;br /&gt;WMX (http://soundcloud.com/wmx)&lt;br /&gt;Split Horizon (http://soundcloud.com/voidtacticalmedia/splithorizon-x24sfbay)&lt;br /&gt;Dimentia (http://soundcloud.com/dimentia)&lt;br /&gt;Additiv (http://soundcloud.com/additiv)&lt;br /&gt;Key (http://soundcloud.com/ioekey)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;In the 2nd Room...&lt;br /&gt;Xanopticon (http://www.xanopticon.com/)&lt;br /&gt;Heartworm (http://soundcloud.com/heartworm)&lt;br /&gt;Intoner (http://soundcloud.com/intoner)&lt;br /&gt;Jack Clang (http://soundcloud.com/jackclang)&lt;br /&gt;RTYPE (http://soundcloud.com/rtype187)&lt;br /&gt;The Stapler&lt;br /&gt;&lt;br /&gt;second room sound provided by sofat! soundsystem(!!!!!)</field>
+        <field name="flier"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="event">
+        <field name="title">Darkmatter presents Void Tactical Media</field>
+        <field name="slug">darkmatter-presents-void-tactical-media</field>
+        <field name="eventName">Darkmatter Soundsystem presents Void Tactical Media</field>
+        <field name="eventDate">2012/05/19</field>
+        <field name="city">Los Angeles</field>
+        <field name="eventDesc">In collaboration with out longtime Los Angeles duals, we rocked LA with a full night of Broken Bass Electronics.</field>
+        <field name="flier"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="event">
+        <field name="title">Excession</field>
+        <field name="slug">excession</field>
+        <field name="eventName">Excession</field>
+        <field name="eventDate">2011/12/17</field>
+        <field name="city">Detroit</field>
+        <field name="eventDesc">Void and From the Gut are at it again, bringing you BASS and BEATS to satiate the solstice (and to celebrate Little Mack's new CD on Void!). Come enjoy stellar, live PA performances by:&lt;br /&gt;&lt;br /&gt;Killx8 (??) (http://www.formandstructure.org/remax)&lt;br /&gt;&lt;br /&gt;Additiv (San Francisco CA/Berlin) (http://soundcloud.com/additiv)&lt;br /&gt;-"If Otto von Schirach has be come boring, check this out"&lt;br /&gt;&lt;br /&gt;WMX (Los Angeles CA) (http://soundcloud.com/voidtacticalmedia/wmx-x24-afterparty-shit-got)&lt;br /&gt;&lt;br /&gt;Split Horizon (Detroit MI/Oakland CA) (http://soundcloud.com/splithorizon&lt;br /&gt;http://soundcloud.com/voidtacticalmedia/split-horizon-live-at-somatic)&lt;br /&gt;&lt;br /&gt;Metria (Detroit MI) (http://soundcloud.com/metria)&lt;br /&gt;&lt;br /&gt;Little Mack (Ann Arbor MI) (http://soundcloud.com/little-mack)&lt;br /&gt;&lt;br /&gt;Key (Detroit MI/Oakland CA) (http://soundcloud.com/ioekey)&lt;br /&gt;&lt;br /&gt;Watabou (Ann Arbor MI) (http://soundcloud.com/watabou)</field>
+        <field name="flier"/>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="event">
+        <field name="title">Somatics</field>
+        <field name="slug">somatics</field>
+        <field name="eventName">Void Tactical Media presents SOMATIC RESPONSES</field>
+        <field name="eventDate">2011/07/08</field>
+        <field name="city">Oakland</field>
+        <field name="eventDesc">Somatic Responses has been originating broken bass sonics for over 15 years, from broken acid beats in the 90s straight through to contorted bass frequencies in 2011. A pillar of underground electronic music, this special visit to the Bay Area is not to be missed.&lt;br /&gt;&lt;br /&gt;With a killer supporting lineup including:&lt;br /&gt;Wet Mango (LA)&lt;br /&gt;Xanopticon (Pittsburgh, PA)&lt;br /&gt;Exillon (Oakland, CA)&lt;br /&gt;Split Horizon (Detroit, MI)&lt;br /&gt;Intergalacterrorist (Portland, OR)&lt;br /&gt;Dimentia (Oakland, CA)&lt;br /&gt;WMX (LA)&lt;br /&gt;Intoner (Oakland, CA)&lt;br /&gt;Vankman (Oakland, CA)&lt;br /&gt;&lt;br /&gt;Bringing together a solid slate of both local and out of town artists, this will be night of slamming electronic music with no filler. Somatic's contorted bass manifestations are supported by twisted broken acid from http://soundcloud.com/exillon Exillon (Oakland), hybrid beats from http://soundcloud.com/wmx WMX (LA), and broken bass from http://soundcloud.com/intergalacterrorist Intergalacterrorist (Portland). http://soundcloud.com/wetmango Wet Mango joins us from LA to spice things up with her quirky breakcore on roller skates, while http://soundcloud.com/vankmen Vankman provides the hardcore backbone for this party celebrating Somatic's diverse influences on electronic music. Keeping true to the Void sound, http://soundcloud.com/voidtacticalmedia Void Tactical Media's http://soundcloud.com/splithorizon Split Horizon and http://soundcloud.com/dimentia Dimentia come through with signature hard broken bass frequencies. Rounding everything out, http://soundcloud.com/intoner Intoner makes all the right choices from his deep crate while http://soundcloud.com/xanopticon Xanopticon caps off the night with his phenomenal assault of beats and sonics. This is one packed lineup, and you won't want to miss a minute of it. Going off on Friday July 8th, somewhere in Oakland CA, we'll see you there!!</field>
+        <field name="flier"/>
+        <field name="published">1</field>
+      </item>
+    </item>
+  </nodes>
+  <relationships>
+    <lattice name="designsForArtist">
+    </lattice>
+    <lattice name="publicSite"/>
+    <lattice name="releaseArtist">
+      <relationship parent="vtcl-002-dimentia--split-horizon" child="jstat"/>
+      <relationship parent="vtcl001-stormwave--earth-has-been-eaten-by-our-mac" child="split-horizon"/>
+      <relationship parent="fs010-machine-vision-ii" child="wmx"/>
+      <relationship parent="void009-the-return" child="killx8"/>
+      <relationship parent="vtcl-002-dimentia--split-horizon" child="split-horizon"/>
+      <relationship parent="vtcl001-stormwave--earth-has-been-eaten-by-our-mac" child="dimentia"/>
+      <relationship parent="eight-legged-ep" child="redrot"/>
+      <relationship parent="heresy" child="intergalacterrorist"/>
+      <relationship parent="its-expensive-and-it-can-kill-you" child="additiv"/>
+      <relationship parent="remax" child="killx8"/>
+      <relationship parent="reaction-formation" child="jstat"/>
+      <relationship parent="a-dream-manifested1" child="dimentia"/>
+      <relationship parent="machine-vision3" child="wmx"/>
+      <relationship parent="activator--interflow" child="split-horizon"/>
+      <relationship parent="thee-ritual-ov-dissektion" child="dimentia"/>
+      <relationship parent="void012-freedom-twitch" child="redrot"/>
+      <relationship parent="void014-jstat-live-at-breakcore-pancakes" child="jstat"/>
+      <relationship parent="fs011" child="split-horizon"/>
+    </lattice>
+    <lattice name="artistsForDesign">
+    </lattice>
+    <lattice name="releasesForArtist">
+      <relationship parent="split-horizon" child="vtcl-002-dimentia--split-horizon"/>
+      <relationship parent="dimentia" child="vtcl001-stormwave--earth-has-been-eaten-by-our-mac"/>
+      <relationship parent="wmx" child="machine-vision3"/>
+      <relationship parent="split-horizon" child="vtcl001-stormwave--earth-has-been-eaten-by-our-mac"/>
+      <relationship parent="dimentia" child="thee-ritual-ov-dissektion"/>
+      <relationship parent="wmx" child="fs010-machine-vision-ii"/>
+      <relationship parent="split-horizon" child="activator--interflow"/>
+      <relationship parent="jstat" child="reaction-formation"/>
+      <relationship parent="dimentia" child="a-dream-manifested1"/>
+    </lattice>
+  </relationships>
+</data>

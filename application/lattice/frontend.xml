@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration SYSTEM "../../modules/lattice/lattice/frontend.dtd">
+
+<configuration>
+	<!--	<view name="basicPage">
+		<includeData from="parent" label="TourBios"/>
+		<includeData from="featuredRelease" label="FeaturedRelease"/>
+	</view> -->
+
+	<view name="homePage">
+		<includeData from="parent" objectTypeFilter="featuredRelease" label="homeFeature"/>
+		<includeData from="parent" objectTypeFilter="recentMedia" label="recentMedia"/>
+	</view>
+
+	<view name="live">
+		<includeData from="parent" label="events"/>
+	</view>
+
+	<view name="artists">
+	<includeData from="parent" objectTypeFilter="artist" label="artist"/>
+	</view>
+
+	<view name="design">
+		<includeData from="parent" objectTypeFilter="designItem" label="designItem"/>
+	</view>
+
+	<view name="print">
+		<includeData from="parent" objectTypeFilter="printItem" label="printItem"/>
+	</view>
+
+	<view name="releases">
+		<includeData from="parent" objectTypeFilter="release" label="release"/>
+	</view>
+
+</configuration>
+

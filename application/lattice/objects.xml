@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration SYSTEM "../../modules/lattice/lattice/objects.dtd">
+
+<configuration>
+
+	<objectTypes>
+
+		<objectType name="basicPage" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundHome" label="Background Image">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+			</elements>
+		</objectType>
+
+		<!-- for use in the Home, featured release, and euro tour pages -->
+		<objectType name="featuredRelease" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<text name="featuredRelease" label="Release Name"/>
+				<text name="soundcloudEmbed" label="Soundcloud Embed HTML" isMultiline="true"/>
+				<image name="featureThumbnail" label="Feature Thumbnail">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+				<text name="releaseDescription" label="Featured Release Description" isMultiline="true"/>
+			</elements>
+		</objectType>
+
+	<objectType name="tourBios" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="true">
+		<elements>
+			<list name="artistBios" label="artistBios">
+				<addableObject objectTypeName="bio" addText="Add an Artist Bio"/>
+				</list>
+			</elements>
+		</objectType>
+
+		<objectType name="bio" contentType="Document" allowChildSort="true" allowDelete="true" allowTogglePublish="false">
+			<elements>
+				<text name="individualBio" label="Artist Name"/>
+				<text name="soundcloudEmbed" label="Soundcloud Embed" isMultiline="true"/>
+				<text name="bioText" label="About the Artist" isMultiline="true"/>
+			</elements>
+		</objectType>
+
+		<objectType name="homePage" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundHome" label="Background Image- 720px is a good width">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+			</elements>
+			<addableObject objectTypeName="recentMedia" addText="add some Recent Media"/>
+		</objectType>
+
+		<objectType name="recentMedia" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+			<elements>
+				<image name="thumbnail" label="Recent Media Thumbnail 124 x 124">
+					<ext>jpg</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+					<ext>png</ext>
+				</image>
+				<image name="fullSize" label="Recent Media Full Size">
+					<ext>jpg</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+					<ext>png</ext>
+				</image>
+				<text name="description" label="Description" isMultiline="true"/>
+
+			</elements>
+			<components>
+				<component objectTypeName="recentMediaModal" label="Modal Image"/>
+			</components>
+		</objectType>
+
+		<objectType name="live" contentType="category" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundImage" label="Background Image- 720px is a good width">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+			</elements>
+					<addableObject objectTypeName="event" addText="Add an Event"/>
+		</objectType>
+
+		<objectType name="event" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+			<elements>
+				<text name="eventName" label="Name of Event"/>
+				<date name="eventDate" label="Date"/>
+        <text name="city" label="City"/>
+				<text name="eventDesc" label="Event Description"/>
+				<image name="flier" label="Flier Image 400 x 570">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+
+			</elements>
+		</objectType>
+
+		<objectType name="recentMediaModal" contentType="document" allowChildSort="false" allowDelete="true" allowTogglePublish="false">
+			<elements>
+				<image name="fullSize" label="Recent Media Full Size">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+				<text name="description" label="Description" isMultiline="true"/>
+			</elements>
+		</objectType>
+
+		<objectType name="artists" contentType="category" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundImage" label="Background Image- 720px is a good width">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+			</elements>
+			<addableObject objectTypeName="artist" addText="Add an Artist"/>
+		</objectType>
+
+		<objectType name="design" contentType="category" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundImage" label="Background Image- 720px is a good width">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+        <text name="missionStatement" label="Design Mission Statement"/>
+			</elements>
+			<addableObject objectTypeName="designItem" addText="Add a Design"/>
+		</objectType>
+
+			<objectType name="print" contentType="category" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
+				<elements>
+					<text name="missionStatement" label="Printed Media Misison Statement"/>
+					<image name="backgroundImage" label="Background Image- 720px is a good width">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+				</elements>
+				<addableObject objectTypeName="printItem" addText="add Some Printed Material"/>
+			</objectType>
+
+			<objectType name="printItem" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+				<elements>
+					<image name="printThumb" label="Print Thumbnail- 232 x 232">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+        <text name="author" label="Author" />
+        <text name="year" label="Year" />
+				<text name="printDescription" label="Synopsis" isMultiline="true" />
+				<file name="pdfDownload" label="PDF of the Article">
+					<ext>pdf</ext>
+				</file>
+				</elements>
+			</objectType>
+
+			<objectType name="artist" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+				<elements>
+					<image name="artistPhoto" label="Artist Photo- 130x130">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+					<text name="artistDescription" label="Things about this Artist"/>
+					<associator name="releasesForArtist" lattice="releasesForArtist" label="Releases For Artist" poolLabel="releasesForArtist">
+						<filter objectTypeName="release"/>
+					</associator>
+					<associator name="designsForArtist" lattice="designsForArtist" label="Designs For Artist " poolLabel="DesignsForArtist">
+						<filter objectTypeName="designItem"/>
+					</associator>
+
+				</elements>
+			</objectType>
+
+			<objectType name="designItem" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+				<elements>
+					<image name="smallDesignThumb" label="Small Thumb- 200x200 ">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+					<image name="largeDesignThumb" label="Large Thumb- 232x232">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+					<image name="designImage" label="Full Size Image">
+						<ext>jpg</ext>
+						<ext>png</ext>
+						<ext>tiff</ext>
+						<ext>tif</ext>
+					</image>
+					<text name="description" label="Some things about this design"/>
+			<associator name="artistsForDesign" lattice="artistsForDesign" label="Artists for Design" poolLabel="Artists">
+				<filter objectTypeName="artist"/>
+			</associator>
+		</elements>
+		</objectType>
+
+		<objectType name="releases" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+			<elements>
+				<image name="backgroundImage" label="Background Image- 720px is a good width">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+			</elements>
+			<addableObject objectTypeName="release" addText="Add a Release"/>
+		</objectType>
+
+		<objectType name="release" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="true">
+			<elements>
+				<text name="releaseName" label="Album Title"/>
+				<text name="catalogNumber" label="Catalog Number"/>
+				<image name="Release Image" label="Release Image 232x232">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+				<image name="smallReleaseImage" label="thumbnail sized image for artists gallery 200x200">
+					<ext>jpg</ext>
+					<ext>png</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+				</image>
+				<text name="soundcloudEmbed" label="Soundcloud Embed - set these perameters: object height='30' width='100%', color:fff"/>	
+				<text name="releaseBlurb" label="blurb"/>
+				<text name="fullQualityDownload" label="Link to Full Quality Download"/>
+        <text name="mastering" label="Mastering"/>
+				<associator name="releaseArtist" lattice="releaseArtist" label="Artist" poolLabel="Artists">
+					<filter objectTypeName="artist"/>
+				</associator> 
+			</elements>
+		</objectType>
+
+
+		</objectTypes>
+
+</configuration>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="latticesite" default="pull">
+
+  <target name="checkout">
+    <exec executable="git">
+      <arg value="submodule"/>
+      <arg value="init"/>
+    </exec>
+    <exec executable="git">
+      <arg value="submodule"/>
+      <arg value="update"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice">
+      <arg value="checkout"/>
+      <arg value="master"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice">
+      <arg value="pull"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice">
+      <arg value="submodule"/>
+      <arg value="init"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice">
+      <arg value="submodule"/>
+      <arg value="update"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice/resources">
+      <arg value="checkout"/>
+      <arg value="master"/>
+    </exec>
+		<exec executable="git" dir="modules/lattice/resources">
+      <arg value="pull"/>
+    </exec>
+    <ant target="setup"/>
+  </target>
+
+  <target name="setup">
+    <chmod dir="application/cache" perm="777"/>
+    <chmod dir="application/logs" perm="777"/>
+    <mkdir dir="application/media"/> 
+    <chmod dir="application/media" perm="777"/>
+    <mkdir dir="application/export"/> 
+    <chmod dir="application/export" perm="777"/>
+    <mkdir dir="application/views/generated"/> 
+    <chmod dir="application/views/generated" perm="777"/>
+    <mkdir dir="upload"/> 
+    <chmod dir="upload" perm="777"/>
+  </target>
+
+  <target name="init">
+    <copy file="modules/database/config/database.php" tofile="application/config"/>
+  </target>
+
+  <target name="pull">
+    <exec executable="git">
+      <arg value="pull"/>
+    </exec>
+    <exec executable="git">
+      <arg value="submodule"/>
+      <arg value="update"/>
+      <arg value="--recursive"/>
+    </exec>
+    <exec executable="git" dir="modules/lattice">
+      <arg value="checkout"/>
+      <arg value="master"/>
+    </exec>  
+    <exec executable="git" dir="modules/lattice">
+      <arg value="pull"/>
+    </exec>  
+  </target>
+
+  <target name="test">                                                                                                
+    <exec executable="phpunit">                                                                                       
+      <arg value="--configuration=application/tests/phpunit.xml"/>                                                    
+    </exec>                                                                                                           
+  </target>
+
+  <target name="testlattice">                                                                                                
+    <exec executable="phpunit">                                                                                       
+      <arg value="--configuration=modules/lattice/devtools/tests/phpunit.xml"/>                                                    
+    </exec>                                                                                                           
+  </target>
+
+  <target name="clean">
+    <exec executable="php">
+      <arg value="index.php"/>
+      <arg value="--uri=builder/initializeSite/empty"/>
+    </exec>
+  </target>
+
+  <target name="onetest">
+    <exec name="phpunit --bootstrap testindex.php GraphTest lattice/lattice/devtools/tests/classes/GraphTest.php "/>
+  </target>
+</project>
+
