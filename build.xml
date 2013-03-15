@@ -3,35 +3,22 @@
 <project name="latticesite" default="pull">
 
   <target name="checkout">
-    <exec executable="git">
+    <exec executable="git" failonerror="true">
       <arg value="submodule"/>
       <arg value="init"/>
     </exec>
-    <exec executable="git">
+    <exec executable="git" failonerror="true">
       <arg value="submodule"/>
       <arg value="update"/>
     </exec>
-		<exec executable="git" dir="modules/lattice">
+    <exec executable="git" dir="modules/lattice" failonerror="true">
       <arg value="checkout"/>
-      <arg value="master"/>
-    </exec>
-		<exec executable="git" dir="modules/lattice">
-      <arg value="pull"/>
-    </exec>
-		<exec executable="git" dir="modules/lattice">
-      <arg value="submodule"/>
-      <arg value="init"/>
-    </exec>
-		<exec executable="git" dir="modules/lattice">
+      <arg value="stable"/>
+    </exec>  
+    <exec executable="git" dir="modules/lattice" failonerror="true">
       <arg value="submodule"/>
       <arg value="update"/>
-    </exec>
-		<exec executable="git" dir="modules/lattice/resources">
-      <arg value="checkout"/>
-      <arg value="master"/>
-    </exec>
-		<exec executable="git" dir="modules/lattice/resources">
-      <arg value="pull"/>
+      <arg value="--recursive"/>
     </exec>
     <ant target="setup"/>
   </target>
@@ -50,41 +37,44 @@
   </target>
 
   <target name="init">
-    <copy file="modules/database/config/database.php" tofile="application/config"/>
+    <copy file="modules/database/config/database.php" tofile="application/config/database.php"/>
   </target>
 
   <target name="pull">
-    <exec executable="git">
+    <exec executable="git" failonerror="true">
       <arg value="pull"/>
     </exec>
-    <exec executable="git">
+    <exec executable="git" failonerror="true">
       <arg value="submodule"/>
       <arg value="update"/>
-      <arg value="--recursive"/>
     </exec>
-    <exec executable="git" dir="modules/lattice">
+    <exec executable="git" dir="modules/lattice" failonerror="true">
       <arg value="checkout"/>
-      <arg value="master"/>
+      <arg value="stable"/>
     </exec>  
-    <exec executable="git" dir="modules/lattice">
+    <exec executable="git" dir="modules/lattice" failonerror="true">
       <arg value="pull"/>
     </exec>  
+    <exec executable="git" dir="modules/lattice" failonerror="true">
+      <arg value="submodule"/>
+      <arg value="update"/>
+    </exec>
   </target>
 
   <target name="test">                                                                                                
-    <exec executable="phpunit">                                                                                       
+    <exec executable="phpunit" failonerror="true">                                                                                       
       <arg value="--configuration=application/tests/phpunit.xml"/>                                                    
     </exec>                                                                                                           
   </target>
 
   <target name="testlattice">                                                                                                
-    <exec executable="phpunit">                                                                                       
+    <exec executable="phpunit" failonerror="true">                                                                                       
       <arg value="--configuration=modules/lattice/devtools/tests/phpunit.xml"/>                                                    
     </exec>                                                                                                           
   </target>
 
   <target name="clean">
-    <exec executable="php">
+    <exec executable="php" failonerror="true">
       <arg value="index.php"/>
       <arg value="--uri=builder/initializeSite/empty"/>
     </exec>
