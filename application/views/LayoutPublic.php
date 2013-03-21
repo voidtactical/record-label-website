@@ -23,19 +23,16 @@
 <script type="text/javascript" src="application/views/js/quickpagerBIG.jquery.js"></script>
 
 
-
 <!-- <script type="text/javascript" src="application/views/js/jquery.jcarousel.big.js"></script> -->
 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('#mycarousel').jcarousel({
+    // Configuration goes here
+  });
+});
+</script>
 
-
-  <script type="text/javascript">
-      jQuery(document).ready(function() {
-            jQuery('#mycarousel').jcarousel({
-                      // Configuration goes here
-					                 });
-		                            });
-											</script>
-									
 
 </head>
 <body class="">

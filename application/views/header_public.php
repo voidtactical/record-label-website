@@ -1,13 +1,13 @@
 <div class="menu">
 
-<a href="home" class="<?echo latticeview::withinSubtree('home')?'active':'';?>">HOME</a><br/>
-<!-- <a href="european-tour" class="<?echo latticeview::withinSubtree('european-tour')?'active':'';?>">EUROPEAN TOUR</a></br>-->
+<a href="home" class="<?echo latticeview::within_subtree('home')?'active':'';?>">HOME</a><br/>
+<!-- <a href="european-tour" class="<?echo latticeview::within_subtree('european-tour')?'active':'';?>">EUROPEAN TOUR</a></br>-->
 <a href="http://voidtacticalmedia.bandcamp.com/music" target="blank">STORE</a><br/>
-<a href="releases" class="<?echo latticeview::withinSubtree('releases')?'active':'';?>">RELEASES</a><br/>
-<a href="artists" class="<?echo latticeview::withinSubtree('artists')?'active':'';?>">ARTISTS</a><br/>
-<a href="design" class="<?echo latticeview::withinSubtree('design')?'active':'';?>">DESIGN</a><br/>
-<a href="print" class="<?echo latticeview::withinSubtree('print')?'active':'';?>">PRINT</a><br/>
-<a href="live" class="<?echo latticeview::withinSubtree('live')?'active':'';?>">LIVE</a><br/>
+<a href="releases" class="<?echo latticeview::within_subtree('releases')?'active':'';?>">RELEASES</a><br/>
+<a href="artists" class="<?echo latticeview::within_subtree('artists')?'active':'';?>">ARTISTS</a><br/>
+<a href="design" class="<?echo latticeview::within_subtree('design')?'active':'';?>">DESIGN</a><br/>
+<a href="print" class="<?echo latticeview::within_subtree('print')?'active':'';?>">PRINT</a><br/>
+<a href="live" class="<?echo latticeview::within_subtree('live')?'active':'';?>">LIVE</a><br/>
 
 <script type="text/javascript" charset="utf-8" src="application/views/js/widget.js"></script>
 <script type="text/javascript">

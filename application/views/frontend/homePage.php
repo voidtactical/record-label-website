@@ -19,7 +19,7 @@
 </div>
 
 <?foreach($content['homeFeature'] as $homeFeatureItem):?>
- <?switch($homeFeatureItem['objectTypeName']){
+ <?switch($homeFeatureItem['object_type_name']){
     case 'homePage':?>
 
  <?  break;?>

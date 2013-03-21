@@ -133,7 +133,7 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 
 Route::set('defaultLatticeFrontend', '(<controller>)', array( 'controller'=>'', ) )->defaults(array(
 	'controller' => 'latticeviews',
-	'action' => 'getView',
+	'action' => 'get_view',
 	'id'     => 'home',
 ));
 
